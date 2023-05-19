@@ -26,12 +26,12 @@ Descomprimir archivo
 gunzip --archivo que se desea descomprimir--
 ----------------------------------------------------------------
 Comprimir en winrar
-Para comprimir archivos .tar, debemos utilizar:
-tar cvf archivo.tar /archivo/carpeta/*
+Para comprimir .rar, debemos utilizar:
+rar -a archivo.rar /carpeta/archivos
 ----------------------------------------------------------------
 Descomprimir Winrar
-Para descomprimir archivos .tar, debemos utilizar:
-tar xvf archivo.tar
+Para descomprimir .rar, debemos utilizar:
+rar -x archivo.rar
 ----------------------------------------------------------------
 Para ver Nombre de la PC 
 Whoami
