@@ -16,6 +16,23 @@ wget --url de la imagen o archivo--
 Cambiar Contraseña
 sudo passwd root
 ----------------------------------------------------------------
+Una Busqueda rapida
+$locate --archivo o carpeta que se desea buscar--
+----------------------------------------------------------------
+Comprimir archivos
+gzip --archivo que se desea comprimir--
+----------------------------------------------------------------
+Descomprimir archivo
+gunzip --archivo que se desea descomprimir--
+----------------------------------------------------------------
+Comprimir en winrar
+Para comprimir archivos .tar, debemos utilizar:
+tar cvf archivo.tar /archivo/carpeta/*
+----------------------------------------------------------------
+Descomprimir Winrar
+Para descomprimir archivos .tar, debemos utilizar:
+tar xvf archivo.tar
+----------------------------------------------------------------
 Para ver Nombre de la PC 
 Whoami
 ---------------------------------------------------------------
