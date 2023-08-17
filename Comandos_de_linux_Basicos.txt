@@ -186,9 +186,17 @@ Para ver a que grupo pertenesemos ya sea root o usuario normal
 id
 ------------------------------------------------------------------------------------------------------------
 DPKG
-Dpkg es una herramienta para instalar, compilar, eliminar y manipular los paquetes, 
-en sistemas que utilizan el sistema de paquetes DEB. Dpkg se utiliza desde la línea de comandos, 
-para utilizar este comando debemos añadir una serie de parámetro y opciones, como veremos más adelante.
+dpkg: Es una herramienta de administración de paquetes en sistemas Debian. Los paquetes son archivos que contienen software y su información necesaria para instalarse.
 
+-i: Es una opción del comando dpkg que indica que se está realizando una instalación.
+
+Cuando combinas dpkg -i, estás indicando que deseas instalar un paquete en tu sistema.
+
+Ejemplo de Uso:
+Supongamos que tienes un archivo de paquete llamado "paquete.deb" y deseas instalarlo en tu sistema.
 -- Comando --
 dpkg -i <archivo> para instalar un archivo
+
+IMPORTANTE
+Este comando solo sirve para instalar arcivos ".deb" en linux  <- donde .deb son archivos para debian 
+------------------------------------------------------------------------------------------------------------
