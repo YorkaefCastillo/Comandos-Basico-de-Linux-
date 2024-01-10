@@ -13,6 +13,9 @@ _____________________________________________________________
 Para descargar archivos de internet ya sea imagenes o pdf etc.
 wget --url de la imagen o archivo--
 --------------------------------------------------------------
+Iniciar arranque programas
+systemctl start (programa que desea arrancar -apache- ) 
+------------------------------------—-------------------------
 Cambiar Contraseña
 sudo passwd root
 ----------------------------------------------------------------
